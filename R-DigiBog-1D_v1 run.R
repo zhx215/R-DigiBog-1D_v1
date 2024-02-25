@@ -22,7 +22,7 @@ porosity <- 0.3 # (from Morris et al., 2015)
 k_param_a <- 31740 # cm yr-1, hydraulic conductivity model parameter (from Morris et al., 2015)
 k_param_b <- 8 # hydraulic conductivity model parameter (from Morris et al., 2015)
 drain_effi <- 2 # draining efficiency, circular = 2, ellipse = 1 
-x_factor <- 0.5 # recalcitrance, (from Morris et al., 2015)
+x_factor <- 0.5 # recalcitrance (from Morris et al., 2015)
 
 ## climate forcing data ##
 temperature <- rnorm(t_extent,7,1) # degree C
